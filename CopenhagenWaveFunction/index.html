@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+        body {
+            padding: 25px;
+            font-size: 18px;
+
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: orange;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+
+        li:last-child {
+            border-right: none;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #4CAF50;
+        }
+
+        .paragraph-one {
+            position: absolute;
+            width: 40%;
+            height: 33%;
+            left: 10%;
+            margin: 50px;
+        }
+
+        .image-one {
+            position: absolute;
+            left: 60%;
+
+        }
+
+        h2{
+            text-align: center ;
+        }
+
+        figcaption {
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .paragraph-one span {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+
+        .paragraph-two {
+            position: absolute;
+            left: 50%;
+            margin: 50px;
+            top: 50%;
+
+        }
+
+        .image-two {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+        }
+
+        .image-two img {
+
+            width: 450px;
+            height: 250px;
+        }
+
+        .paragraph-three {
+            position: absolute;
+            top: 100%;
+            width: 30%;
+            margin: 50px;
+            left: 15%;
+        }
+
+        .image-three {
+            position: absolute;
+            top: 90%;
+            left: 70%;
+            padding-bottom: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="/CopenhagenWaveFunction/index.html">Quantum Mechanics:
+                    Section I</a></li>
+            <li><a href="/CatSuperpositionSemiconductors/index.html">Quantum
+                    Mechanics: Section II</a></li>
+            <li><a href="/QuantumComputingImplications/index.html">Quantum
+                    Mechanics: Section III</a></li>
+            <li style="float:right"><a class="active"
+                    href="#about">Attributions</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>Quantum Mechanics: Copenhagen Interpretation, Wave Function, and
+        Heisenberg's Uncertainty Principle</h1><br><br>
+    <div class="paragraph-one">
+
+
+        <p><span>B</span>efore Erwin Schödinger's thought experiment involving
+            the famous "Schrödinger Cat", there was a
+            physics
+            theory which truly set the ground work for Quauntum Mechanics and
+            the understanding of light as a particle
+            or wave. This
+            theory is known as the Copenhagen Interpretation. In this
+            interpretation we are introduced to a mathematical
+            function called
+            the wave function. The Wave Function helps physicists to tackle
+            experiments in an entirely different
+            perspective! </p>
+    </div>
+
+    <div class="image-one">
+        <figure>
+            <img src="/images/Wave Function.png">
+            <figcaption>Image of the Wave Function</figcaption>
+        </figure>
+    </div>
+
+
+
+    <div class="paragraph-two">
+        <p>How did the Wave Function come about? Initially Heisenberg's
+            Uncertainty Principle brought about the idea
+            that when a
+            particle's place is known,
+            the momentum is inconsequential. To better understand this we can
+            imagine a basketball in mid air; the more
+            we know
+            of the basketball's exact position, the less we know about how
+            the basketball's position is changing. This uncertainty principle is
+            a key point in why the wave function
+            determines
+            light the way it does. The wave function
+            determines that when light is observed by an experimental device the
+            light will collapse from a wave into a
+            particle, this is also known as the collapse of the wave function.
+            Pretty neat right? It gets better!</p>
+    </div>
+    <br>
+    <div class="image-two">
+        <figure>
+            <img src="/images/Uncertainty Principle.png" alt="">
+            <figcaption>Heisenberg's Uncertainty Principle</figcaption>
+        </figure>
+    </div>
+
+    <div class="paragraph-three">
+
+        <p>With this conclusion made we can assume the existence of
+            wave-particle duality. An experiment which displays
+            this
+            concept beautifully is known as the double slit experiment. On a
+            singular scale, when a single electron is
+            shot
+            through
+            two slits that have a width smaller than said electron, the electron
+            will diffract. Diffraction describes
+            how
+            the electron ends up warping and behaves like a wave. However, we
+            are discussing quantum objects which
+            behave as
+            a wave until observed.
+            Upon observation which occurs near the slits, the wave function
+            collapses and our quantum object behaves as
+            a
+            particle. We do not know which slit the quantum object will pass
+            through because at this point our it is in
+            superposition. Probability
+            works wonders in making this determination for us! This in essence,
+            is the Copenhagen Interpretation!
+        </p>
+    </div>
+    <div class="image-three">
+        <img src="/images/slit.jpg" alt="">
+
+    </div>
+
+
+
+</body>
+
+</html>
